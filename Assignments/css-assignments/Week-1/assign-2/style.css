@@ -1,0 +1,49 @@
+/* div {
+    background-color: #EEE;
+    margin: 5px;
+    padding: 20px;
+    display: inline-block;
+    outline: 5px solid black;
+}
+
+.assign-1-shape-1 {
+    border: 5px solid red;
+}
+
+.assign-1-shape-2 {
+    border-top: 5px solid blue;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid green;
+}
+
+.assign-1-shape-3 {
+    border-top: 5px solid red;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid yellow;
+    border-style: dashed;
+} */
+
+
+.element {
+    background-color: #EEE;
+    width: 400px;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 40px;
+}
+
+
+.element-1 {
+    border-left: 10px solid red;
+}
+
+.element-2 {
+    visibility: hidden;
+    /* display: none; */
+}
+
+.element-3 {
+    border-left: 10px solid blue;
+}

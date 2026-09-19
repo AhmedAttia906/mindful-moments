@@ -1,0 +1,32 @@
+/* div .child span {
+    color: red;
+}
+
+div .title {
+    color: blue;
+}
+
+div p,
+.title {
+    color: green;
+} */
+
+/* 2 تكليف  */
+
+.one,
+.two,
+.three,
+.four {
+    background-color: rgba(247, 8, 8, 0.87);
+    width: fit-content;
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.four {
+    max-width: 280px;
+    max-height: 50px;
+    overflow-y: hidden;
+}

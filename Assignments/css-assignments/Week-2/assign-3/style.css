@@ -1,0 +1,38 @@
+/* div {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid red;
+}
+
+div p {
+    background-color: rgb(186, 203, 218);
+    border: inherit;
+    padding: inherit;
+} */
+
+
+/* <!-- تكليف 2 --> */
+
+div {
+    text-align: center;
+}
+
+html {
+    font-size: 20px;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+}
+
+/* #EEE */

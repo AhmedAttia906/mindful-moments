@@ -1,0 +1,107 @@
+/* div{
+    background-color: blueviolet;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+} */
+
+.assign-1-shape-1 {
+    background-color: rgb(138, 43, 226);
+}
+
+.assign-1-shape-2 {
+    background-color: hsla(271, 76%, 53%, 0.5);
+}
+
+.assign-1-shape-3 {
+    background-color: #8a2be21a;
+}
+
+
+/* تكليف 2 */
+
+/* div {
+    background-color: #EEE;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+    padding: 20px;
+    margin: 20px auto;
+} */
+
+.assign-2-shape-1 {
+    background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+    background-repeat: repeat-y;
+}
+
+.assign-2-shape-3 {
+    background-repeat: repeat-x;
+}
+
+.assign-2-shape-4 {
+    background-repeat: repeat;
+}
+
+/* تكليف 3 */
+
+/* div {
+    background-color: #EEE;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+    padding: 20px;
+    margin: 20px auto;
+}
+*/
+.assign-3-shape-1 {
+    background-repeat: no-repeat;
+}
+
+.assign-3-shape-2 {
+    background-repeat: repeat-y;
+    background-position: 100%;
+}
+
+.assign-3-shape-3 {
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
+}
+
+
+/* تكليف 4 */
+
+
+div {
+    color: white;
+    background-color: #EEE;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.assign-4-shape-1 {
+    background-repeat: no-repeat;
+    /* background-size: 80% 80%; */
+}
+
+.assign-4-shape-2 {
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: 100%;
+}
+
+.assign-4-shape-3 {
+    background-repeat: repeat-x;
+    background-size: 80%;
+    background-position: 0 100%;
+}
+
+.assign-4-shape-4 {
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}

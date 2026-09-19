@@ -1,0 +1,54 @@
+/* .parent {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+    gap: 15px;
+    margin: 20px auto;
+    border: 15px solid transparent;
+}
+
+.box {
+    background-color: #ddd;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.full {
+    width: calc(100%);
+}
+
+.third {
+    width: calc((100% - 30px) / 3);
+}
+
+.half {
+    width: calc((100% - 15px) / 2);
+}
+
+.quarter {
+    width: calc((100% - 45px) / 4);
+} */
+
+/* تكليف 2  */
+
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #B3B3B3;
+    color: black;
+}
+
+.one {
+    background-color: rgb(179 179 179 / 10%);
+}
+
+.two {
+    opacity: 0.1;
+}

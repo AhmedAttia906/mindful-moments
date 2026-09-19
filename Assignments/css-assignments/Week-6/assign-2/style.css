@@ -1,0 +1,173 @@
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px 1fr;
+    gap: 20px;
+}
+
+.grid div {
+    background-color: #607d8b;
+    counter-increment: cont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.grid div::before {
+    content: "Element " counter(cont);
+
+} */
+
+/* التكليف 2 */
+
+/* * {
+    margin: 0;
+}
+
+.layout {
+    background-color: #ddd;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas: "head head head head"
+        "sec sec sec side"
+        "foot foot foot foot";
+}
+
+div>* {
+    padding: 10px;
+}
+
+header {
+    grid-area: head;
+    background-color: rgb(28, 132, 166);
+    box-sizing: border-box;
+}
+
+header::before {
+    content: "Header";
+    color: white;
+}
+
+section {
+    grid-area: sec;
+    background-color: orangered;
+}
+
+section::before {
+    content: "Section";
+    color: white;
+}
+
+aside {
+    grid-area: side;
+    background-color: grey;
+}
+
+aside::before {
+    content: "Aside";
+    color: white;
+}
+
+footer {
+    grid-area: foot;
+
+    background-color: rgb(39, 137, 95);
+}
+
+footer::before {
+    content: "Footer";
+    color: white;
+} */
+
+/* التكليف 03 */
+
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+}
+
+.grid>* {
+    color: white;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* التكليف 04 */
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    grid-template-areas:
+        "eight eight eight eight"
+        "two two two three"
+        "four five five five"
+        "six five five five"
+        "seven five five five"
+        "one one one one";
+    gap: 20px;
+}
+
+.grid>* {
+    color: white;
+    background-color: rgb(46, 126, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}

@@ -1,0 +1,293 @@
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    color: orangered;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: -5px 1px 0 blue,
+        5px 1px 0 orangered;
+} */
+
+/* .parent{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    box-sizing: border-box;
+}
+
+.parent div{
+    width: 180px;
+    height: 35px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+} */
+
+/* تكليف 3 */
+
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parent div {
+    width: calc(600px/4);
+    background-color: rgb(70, 87, 126);
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.one {
+    order: 6;
+    align-self: flex-end;
+}
+
+.two {
+    order: 5;
+}
+
+.three {
+    order: 2;
+    align-self: flex-start;
+}
+
+.four {
+    order: 3;
+    align-self: flex-start;
+}
+
+.five {
+    order: 4;
+}
+
+.six {
+    order: 1;
+} */
+
+/* تكليف 4 */
+
+/* .parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.parent div {
+    background-color: #009688;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+
+.one,
+.three {
+    width: 30px;
+    height: 60px;
+}
+
+.two {
+    width: 300px;
+    height: 60px;
+    align-self: flex-start;
+} */
+
+/* تكليف 5 */
+
+/* .parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    color: white;
+    text-align: center;
+    line-height: 140px;
+}
+
+
+.one {
+    background-color: orange;
+    height: 140px;
+    width: calc(580px / 4);
+}
+
+.two {
+    background-color: green;
+    height: 140px;
+    width: 145px;
+    align-self: flex-end;
+}
+
+
+.three {
+    background-color: burlywood;
+    height: 140px;
+    width: 145px;
+}
+
+.four {
+    background-color: purple;
+    order: -1;
+    height: 140px;
+    width: 145px;
+    align-self: flex-end;
+} */
+
+/* التكليف 06 */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    min-height: 500px;
+    margin: 0px auto;
+    background-color: #eee;
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page > div{
+    background-color: aqua;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+.links {
+    display: flex;
+    width: 970px;
+    display: flex;
+    justify-content: flex-end;
+    width: 970px;
+    gap: 10px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.main-area {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+} */
+
+:root {
+    --main-padding: 10px;
+    --main-margin: 10px;
+    --main-bg: #ddd;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.page {
+    background-color: #eee;
+    min-height: 100vh;
+    padding: var(--main-padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--main-margin);
+}
+
+.header {
+    display: flex;
+    gap: var(--main-margin);
+}
+
+.logo,
+.links,
+.content,
+.sidebar,
+.footer {
+    background-color: var(--main-bg);
+    padding: var(--main-padding);
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    flex: 9;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+}
+
+.main-area {
+    display: flex;
+    gap: var(--main-margin);
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

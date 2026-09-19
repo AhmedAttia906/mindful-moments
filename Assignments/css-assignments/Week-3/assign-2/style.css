@@ -1,0 +1,178 @@
+/* div {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+.green {
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.red {
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+}
+
+.black {
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    top: 98px;
+    left: 8px;
+} */
+
+/* div {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #F66C62;
+    border-bottom: 3px solid #F66C62;
+    border-right: 3px solid #2196F3;
+    border-left: 3px solid #2196F3;
+    position: relative;
+}
+
+span {
+    background-color: #2196F3;
+    color: white;
+    padding: 0px 10px;
+}
+
+.top-left {
+    position: absolute;
+    top: -10px;
+    border-right: 3px solid #F66C62;
+    left: -10px;
+}
+
+.top-right {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-left: 3px solid #F66C62;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    border-right: 3px solid #F66C62;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    border-left: 3px solid #F66C62;
+}  */
+
+/* < !-- تكليف 3 --> */
+
+/* * {
+    box-sizing: border-box;
+}
+
+ul {
+    width: 400px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+ul>li {
+    background-color: #eee;
+    margin-bottom: 20px;
+    padding: 15px;
+    list-style: none;
+    font-size: 25px;
+}
+
+ol {
+    margin: 15px 0 0;
+    padding-left: 35px;
+}
+
+ol li,
+.js-cont li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.HTML ol {
+    list-style-type: decimal;
+}
+
+.css ol {
+    list-style-type: upper-roman;
+}
+
+.js-cont {
+    margin: 15px 0 0;
+    padding-left: 20px;
+}
+
+.js-cont li {
+    list-style-type: circle;
+    width: 350px;
+}
+ */
+
+/* <!-- تكليف 4 --> */
+
+table {
+    width: 700px;
+    align-items: center;
+    position: relative;
+    margin: 20px auto;
+}
+
+h3 {
+    width: 700px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+th {
+    background-color: burlywood;
+    text-align: center;
+}
+
+tr {
+    background-color: #eee;
+    text-align: center;
+}
+
+.view {
+    background-color: cornflowerblue;
+    margin-right: 3px;
+}
+
+.delete {
+    background-color: brown;
+}
+
+td img {
+    text-align: center;
+    vertical-align: middle;
+}

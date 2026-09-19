@@ -1,0 +1,120 @@
+/* body {
+    text-align: center;
+}
+
+div {
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50px;
+    gap: 50px;
+    position: relative;
+    counter-increment: my-counter;
+    box-shadow: -7px -8px 0px red, 5px 3px 0px blue;
+}
+
+div::after {
+    content: "Element";
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 23px;
+}
+
+div::before {
+    content: counter(my-counter);
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    left: 38px;
+} */
+
+/* تكليف 2 */
+
+/* div {
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    margin: 250px auto;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-start-start-radius: 8px;
+    border-end-end-radius: 8px;
+    box-shadow: inset 0px 0px 6px 0px;
+} */
+
+/* تكليف 3 */
+
+.parent {
+    width: 550px;
+    margin: 20px auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.plan {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    background: #eee;
+    text-align: center;
+}
+
+.parent::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+.plan:first-child {
+    margin-right: 46px;
+}
+
+.or {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    border-radius: 50%;
+    background: #03a9f4;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    background: #03a9f4;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.price {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #ddd;
+
+    text-align: center;
+    line-height: 180px;
+    margin: 20px auto;
+}
